@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -85,5 +86,30 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
     "vite": "^5.4.19"
+=======
+  "name": "skill-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.3"
+>>>>>>> 6d1443aa4972a1ea66003c32db1b451d0e6a891f
   }
 }
