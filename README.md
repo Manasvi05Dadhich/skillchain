@@ -1,89 +1,47 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# SkillChain: Proof of Skills, Powered by Blockchain  
 
-## Project info
+**Team Name:** m&M  
+**Tagline:** Proof of Skills, Powered by Blockchain  
 
-**URL**: https://lovable.dev/projects/335dd986-6b90-4293-a30b-220d2fc90683
+---
 
-## How can I edit this code?
+## 🚨 The Problem  
 
-There are several ways of editing your application.
+Resumes are often unreliable, with over 40% containing false or exaggerated information. This creates several issues:  
 
-**Use Lovable**
+- ⏳ **Slow & Costly Verification:** Recruiters spend 23+ hours per hire on validating skills through tests, interviews, and background checks.  
+- 🎯 **Overlooked Talent:** Students and professionals with real project-based skills fail to stand out because they lack verifiable proof.  
+- 🌍 **No Universal System:** LinkedIn endorsements or MOOC certificates are easily faked and lack true credibility.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/335dd986-6b90-4293-a30b-220d2fc90683) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 The Solution: SkillChain  
 
-**Use your preferred IDE**
+SkillChain is an **AI + Blockchain-powered platform** that creates **verifiable, tamper-proof credentials** for real-world skills.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+It works by:  
+- 🤖 **AI Skill Verification:** AI analyzes submitted projects to assess authenticity and contribution.  
+- 👩‍⚖️ **Mentor Review:** Verified professionals review projects and earn rewards for fair evaluation.  
+- 🏅 **Blockchain Skill Badges:** Once validated, skills are minted as NFTs (ERC-721) on Polygon, making them **immutable & fraud-proof**.  
+- 🔗 **On-Chain Proof:** Each badge is linked to project metadata stored on **IPFS**, ensuring transparent records.  
+- 📲 **Seamless Integration:** Recruiters can verify via **blockchain explorers, APIs, or QR codes** on resumes/LinkedIn.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🔄 How It Works  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```mermaid
+flowchart TD
+    A([📝 User submits project/proof]):::user 
+    B([🤖 AI analyzes & generates skill summary]):::ai
+    C{👩‍⚖️ Mentors/Peers verify authenticity}:::review
+    D([🏅 Skill Badge minted as NFT on Polygon]):::nft
+    E([💼 Employers/Clients validate via blockchain]):::employer
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+    A --> B --> C --> D --> E
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/335dd986-6b90-4293-a30b-220d2fc90683) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
->>>>>>> 6d1443aa4972a1ea66003c32db1b451d0e6a891f
+    classDef user fill:#ffeb99,stroke:#333,stroke-width:2px,color:#000;
+    classDef ai fill:#c9eaff,stroke:#333,stroke-width:2px,color:#000;
+    classDef review fill:#ffd6cc,stroke:#333,stroke-width:2px,color:#000;
+    classDef nft fill:#d6f5d6,stroke:#333,stroke-width:2px,color:#000;
+    classDef employer fill:#e6ccff,stroke:#333,stroke-width:2px,color:#000;
